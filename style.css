@@ -1,0 +1,38 @@
+body {
+	background-color: #faf8ef;
+}
+
+h1 {
+	text-align: center;
+}
+
+#game-board {
+	width: 500px;
+	height: 500px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tbody {
+	display: flex;
+	flex: 1;
+	background-color: #bbada0;
+	padding: 4px;
+	border-radius: 4px;
+}
+
+tr {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	width: 100%;
+}
+
+td {
+	display: inline-flex;
+	margin: 4px;
+	flex: 1;
+	background-color: #faf8ef;
+	border-radius: 4px;
+}
